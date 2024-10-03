@@ -32,7 +32,7 @@ export async function sendMessageWA (
       body: JSON.stringify(data)
     };
 
-    //console.log("Enviado: ", data)
+    console.log("Enviado: ", data)
 
 fetch(url, requestOptions)
   .then(response => {
